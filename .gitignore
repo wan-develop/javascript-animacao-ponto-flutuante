@@ -1,0 +1,45 @@
+# Node modules
+/node_modules/
+
+# Diretórios e arquivos de build
+/dist/
+/build/
+/public/
+
+# Arquivos de configuração do IDE (exemplos para VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Arquivos de log
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores de texto
+*.swp
+*.swo
+*~
+
+# Arquivos de ambiente (se aplicável)
+.env
+
+# Diretórios de pacotes e dependências para ferramentas de build (exemplo: Webpack, etc.)
+*.tgz
+*.zip
+
+# Arquivos gerados automaticamente por testes, ferramentas de linting, etc.
+/coverage/
+/*.test.jss
+
+# Dependências de pacotes com Yarn (se estiver usando)
+yarn.lock
+
+# Outros arquivos específicos de build que podem ser gerados
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de configuração do sistema de gerenciamento de pacotes
+package-lock.json  # Adicionar apenas se não estiver usando yarn
